@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=h1, initial-scale=1.0">
+    <title>Biblioteca arrinconada</title>
+    <!--Conexió con CSS - HOJA DE ESTILOS-->
+   <!-- <link rel="stylesheet" href="/style.css">-->
+   <link rel="stylesheet" href="/main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Young+Serif&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="/images/logo.png" type="">
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="#inicio">Inicio</a>
+            <a href="#semana">Recomendaciones</a>
+            <a href="#chisme">Chisme Literario</a>
+            <a href="#comentario">Comentarios</a>
+        </nav>
+        <section class="textos-header">
+            <h1 id="inicio">Biblioteca arrinconada</h1>
+            <h2>Un libro es un regalo que puedes abrir una y otra vez</h2>
+        </section>
+        <div class="wave" style="height: 150px; overflow: hidden;" ><svg viewBox="0 0 500 150" preserveAspectRatio="none" style="height: 100%; width: 100%;"><path d="M0.00,49.98 C126.12,194.91 298.24,-100.14 500.00,49.98 L500.00,150.00 L0.00,150.00 Z" style="stroke: none; fill: rgb(255, 255, 255);"></path></svg></div>
+    </header>
+
+    <main>
+    <section class="historias">
+        <!--Historias semanales-->
+        <div class="title-cards">
+            <h2 id="semana">Mejores historias de la semana</h2>
+        </div>
+    <div class="container-card">
+        
+    <div class="card">
+        <figure>
+            <img class="real-manga" src="/images/Libro1.png">
+        </figure>
+        <div class="contenido-card">
+            <h3>Diseño Gràfico</h3>
+            <p>Seoyung se despierta en un mundo desolado sin ningún recuerdo. Deambula hasta que se encuentra con Younghyun, un esper capaz de controlar fuego. Ambos necesitan escapar, pero ¿podrían ser la luz que los guíe el uno al otro?</p>
+            <a href="https://www.lezhin.es/detail/luz-guia">Leer Aquí</a>
+        </div>
+    </div>
+    <div class="card">
+        <figure>
+            <img class="real-manga" src="/images/Libro2.png">
+        </figure>
+        <div class="contenido-card">
+            <h3>Max Mojave: Un caso por resolver</h3>
+            <p>Chris cambia por completo cuando por acciedente es testido de un asesinato. Decidido a encontrar la verdad, él se dedica a estudiar criminología. Sin embargo, lo que no imagina es que Max, su compañero de cuerto, es un asesino de la mafia.</p>
+            <a href="https://www.lezhin.es/detail/max-mojave-un-caso-para-resolver">Leer Aquí</a>
+        </div>
+    </div>
+    <div class="card">
+        <figure>
+            <img class="real-manga" src="/images/Libro3.png">
+        </figure>
+        <div class="contenido-card">
+            <h3>Cazando fantasmas</h3>
+            <p>Desde que el chico nuevo, lleno de talismanoes y objetos extraños, se mudó al edificio, Yoon-jae se la paso soñando con fantasmas y viendo criaturas extrañas. El chico nuevo con mucha experiencia en lo que hace, ayuda a Yoon-jae para protegerlo de que lo ayude a él y a su felino amigo a cazar fantasmas.</p>
+            <a href="https://www.lezhin.es/detail/cazando-fantasmas">Leer Aquí</a>
+        </div>
+    </div>
+    </div>
+</section>
+
+<!--Géneros-->
+<section class="contenido-chisme">
+    <h2 id="chisme" class="titulo">Chisme literario del día</h2>
+    <div class="contenido-chisme-info">
+        <img class="leer-manga" src="/images/regalar-libro.png">
+        <div class="contenido-textos"></div>
+        <p> ¿Lo habías leído...? Una de las tradiciones más populares del Día del Libro es regalar libros a amigos y familiares. Esta tradición comenzó en Cataluña en la década de 1920, cuando se empezó a regalar una rosa y un libro en el Día de San Jorge. La tradición se extendió por todo el país y luego por todo el mundo, convirtiéndose en una forma popular de celebrar el Día del Libro.</p>
+    </div>
+</section>
+<section class="comentarios">
+    <div class="contenedor">
+        <h2 id="comentario"
+         class="titulo">Te leemos</h2>
+        <div class="comentario-caja">
+            <form>
+                <!--FORMULARIO TIPO INPUT TEXT-->
+                <p>¿Qué te gustaría ver en la página?</p>
+                <!--label - Etiqueta para identificar cada respuesta del formularios-->
+                <label class="comentario-caja" for="reseña-sugerida">
+                    <!--type - tipo (TEXT - RADIO una opcion- CHECKBOX usos multiples)-->
+                    <input type="text">
+                    <button class="boton">Enviar</button>       
+                </label>
+            </form>
+
+        </div>
+    </div>
+</section>
+
+</main>
+</body>
+</html>
